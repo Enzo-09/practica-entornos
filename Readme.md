@@ -1,1 +1,2 @@
-ACA ESTA LA PRACTICA 1 DE ENTORNOS GRAFICOS RESUELTA, CADA EJERCITACION SEPARADA EN DISTINTOS ARCHIVOS
+REPOSITORIO DE ENZO FERRARI LEGAJO: 53251
+Aqui voy a estar subiendo todas las practicas de entornos graficos durante el primer cuatrimestre
