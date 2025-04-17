@@ -1,0 +1,33 @@
+1) CSS (Cascading Style Sheets) es un lenguaje usado para describir la presentación (estilo) de un documento HTML. Se utiliza para definir cómo se visualizan los elementos de una página web: colores, fuentes, márgenes, tamaños, posiciones, etc. Permite separar la estructura del contenido (HTML) del diseño.
+2) Las reglas CSS están compuestas por un selector y un bloque de declaración.
+El selector indica a qué elementos HTML se aplicarán los estilos, y el bloque de declaración contiene uno o más pares de propiedad
+3) CSS en línea (inline): se aplica directamente en la etiqueta HTML usando el atributo style.
+Ej: <p style="color: blue;">Texto</p>
+CSS interno (internal): se coloca dentro de una etiqueta <style> en el <head> del HTML.
+CSS externo (external): se vincula un archivo .css externo mediante <link> en el HTML. Es la forma más recomendada.
+4) Los principales selectores son:
+--Selector de tipo o etiqueta: selecciona todos los elementos de un tipo.
+Ej: h1 { color: green; }
+--Selector de clase (.): aplica estilos a elementos con una clase específica.
+Ej: .destacado { font-weight: bold; }
+--Selector de ID (#): aplica estilos a un elemento con un ID único.
+Ej: #menu { background-color: grey; }
+--Selector universal (*): selecciona todos los elementos.
+Ej: * { margin: 0; padding: 0; }
+--Selector de descendiente: aplica estilos a elementos dentro de otros.
+Ej: div p { color: blue; } aplica a todos los <p> dentro de un <div>.
+5) Una pseudo-clase define un estado especial de un elemento, las más usadas en vínculos son:
+--link – enlaces no visitados.
+--visited – enlaces ya visitados.
+--hover – cuando el mouse está sobre el enlace.
+--active – cuando se está haciendo clic en el enlace.
+6) La herencia en CSS significa que ciertos estilos aplicados a un elemento padre se transmiten automáticamente a sus elementos hijos.
+Por ejemplo, si se aplica color: red al <body>, todos los elementos hijos heredan ese color, a menos que se les sobrescriba.
+7) La cascada es el mecanismo que usa CSS para decidir qué reglas aplicar cuando múltiples reglas afectan un mismo elemento.
+Orden de prioridad:
+--Estilos en línea (mayor prioridad).
+--CSS interno.
+--CSS externo.
+Y también se consideran:
+--Especificidad de los selectores.
+--Orden de aparición (la última regla sobreescribe a las anteriores si tienen igual especificidad).
