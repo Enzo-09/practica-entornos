@@ -1,0 +1,3 @@
+3) --En los elementos que esten en la clase quitar, pero dentro le parrafo (es decir, sin contar el h1) les cambia el color de la letra a rojo.
+--A todos los elementos que esten en la clase desarrollo, les va a aplicar un tamaño de letra de 8 pixeles.
+--Y por ultimo, a los elementos de la clase importante, les pone un tamaño de letra de 20 pixeles.
