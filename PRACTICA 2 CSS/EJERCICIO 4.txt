@@ -1,0 +1,6 @@
+4) Las principales diferencias entre ambos codigos son:
+En el codigo de la derecha, al aplicar .contenido al body, todos los elementos hijos, heredan el font-size y se les aplica el bold para la letra negrita.
+Mientras que en el codigo de la izquierda, el font-size es 14 (por  .contenido) y no se le aplica negrita (por el font-weight normal)
+Ademas, en el codigo de la izquierda, el tamaño de las tablas queda por defecto, y tampoco se le aplica la negrita.
+Mientras que en el codigo de la derecha, si se le aplica negrita y hererda el tamaño de body.contenido.
+
