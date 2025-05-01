@@ -1,0 +1,3 @@
+4) El codigo funciona de la siguiente manera:
+Funciona mal, ya que devuelve el siguiente mensaje "El el clavel blanco"
+Esto sucede, porque antes del include, las variables no estan definidas, por lo que la primera linea no las muestra (el echo muestra solo el mensaje "el"), y luego del include se cargan las variables desde datos.php

@@ -1,0 +1,2 @@
+5) El ejemplo, lo que hace es, que cada vez que alguien entra a la pagina, el numero de visitas dentro del contador aumenta, el proceso para que esto ocurra es el siguiente:
+Cuando un usuario entra a visitas.php, se ejecuta contador.php.Luego Abre contador.dat, lee el número actual, suma +1 al valor leído y guarda el nuevo número en el mismo archivo.
