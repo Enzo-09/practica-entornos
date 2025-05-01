@@ -1,0 +1,15 @@
+2-a) Los codigos son equivalentes, ya que devuelven la misma salida, en este caso, 12345678910, la diferencia es que:
+en el primer codigo, utiliza el while convencional
+en el segundo codigo, utiliza el while, con el end-while, pero funciona exactamente igual
+en el tercer codigo, utiliza el do-while,que lo que hace es ejecutar el codigo una vez, y luego lo sigue ejecutando mientras cumpla con la condicion, ademas, inicializa i en 0, por lo que en la condicion debe poner i<10, mientras los otros ponen i<=10.
+Pero a pesar de estas diferencias en la sintaxis, el codigo sigue siendo equivalente ya que devuelve lo mismo.
+
+2-b) Los codigos, tambien son equivalentes, ya que tambien devuelven 12345678910, la diferencia entre los codigos, es que:
+El primero, utiliza un for normal
+El segundo, en lugar de poner la condicion en el for, crea un if con un break para que cuando se cumpla la condicion, el for deje de ejecutarse
+El tercero funciona como el segundo, solo que no escribe nada en el for
+EL cuarto, escribe todo en una sola linea
+
+2-c) Ambos codigos son equivalentes, pero en este caso, la diferencia es que:
+el primer codigo utiliza un if y varios elseif, lo cual no es muy efectivo si tenes muchas opciones.
+mientras que el segundo codigo, lo que hace es usar un case, lo cual da claridad y es la mejor opcion, ya que si queres agregar algo al codigo, creas otro case y listo.

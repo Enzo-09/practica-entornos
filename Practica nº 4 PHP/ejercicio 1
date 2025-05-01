@@ -1,0 +1,24 @@
+1)Variables y su tipo:
+a: variable tipo boolean
+b: variable tipo string
+c: variable tipo string
+d: variable tipo integer
+f: variable tipo integer
+g: variable tipo integer
+
+operadores: 
+= Operador de asginacion basica
+* multiplicacion
+?: Operador ternario (funciona de manera similar a un if, donde pones la condicion, el ?, luego ejecuta dependiendo de si cumple o no la condicion)
++= suma y asginacion
+++ pre-incremento
+. concatenacion de strings
+
+funciones: 
+function doble;: cuyo parametro es i, y devuelve el doble.
+
+estructuras de control:
+En este ejercicio, las estructuras de control, son los if.
+
+la salida por pantalla es: booleanstringstringintegerxyzxyz184444
+
